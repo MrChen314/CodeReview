@@ -14,7 +14,7 @@ cd /Users/chenql/Desktop/workspace/code-review/MindSpeed-MM
 git fetch https://gitcode.com/Ascend/MindSpeed-MM.git +refs/merge-requests/1383/head:pr_1383
 git checkout pr_1383
 2.合并pr中的多个commit
-echo 'yes'|bash /Users/chenql/Desktop/workspace/code-review/rebase.sh
+echo 'yes'|bash /Users/chenql/Desktop/workspace/code-review/CodeReview/rebase.sh
 3.对该分支最新commit的修改进行代码检视，输出检视结果
 
 需要检视pr的id分别是：
